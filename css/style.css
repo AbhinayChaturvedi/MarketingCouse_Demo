@@ -1,0 +1,547 @@
+
+/*CSS RESET*/
+
+/* Navigation bar: LIST STYLING */
+
+#navbar{
+position: relative;
+background-color: black;
+}
+#navbar ul{
+display: flex;
+font-family: 'Baloo 2', cursive;
+}
+
+#navbar ul li{
+list-style: none;
+font-size: 0.8rem;
+}
+#navbar ul li a{
+color: white;
+display: block;
+padding: 3px 22px;
+border-radius: 20px;
+text-decoration: none;
+}
+
+#navbar ul li a:hover{
+color: black;
+background-color: white;
+}
+.main-div{
+    display: flex;
+    height: 30px;
+}
+.img-div{
+    height: 5rem;
+    width: 240px;
+    padding: 2px;
+    
+    
+}
+.img-div img{
+    height: 100%;
+    width: 100%;
+}
+.search-bar{
+    height: 2rem;
+    padding: 10px;
+    margin: 1%;
+    width: 90%;
+    background-color: #FFFFFF;
+    border: 1px solid gray;
+    /* border: 1px solid black; */
+    position: relative;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+}
+.material-symbols-outlined{
+    padding-top: 0.7%;
+}
+.searchBox{
+    border: 0px solid;
+    color: #CCC;
+    outline: none;
+    width: 90%;
+    
+}
+.button{
+    height: 120px;
+    width: 200px;
+    padding: 6px 20px;
+    cursor: pointer;
+}
+
+.btn1{
+    height: 55px;
+    width: 127px;
+    margin: 7px;
+    background-color: green;
+    cursor: pointer;
+}
+.btn button{
+    cursor: pointer;
+}
+/* Home Section */
+.home{
+display: flex;
+flex-direction: row;
+padding: 3px 80px;
+height: 370px;
+justify-content: space-between;
+align-items: center;
+margin-top: 100px;
+}
+.home-left{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+/* Utility classes */
+.h-primary{
+font-size: 2.2rem;
+padding: 12px;
+}
+span{
+    color: green;
+}
+.btn{
+padding:6px 20px;
+border: 2px solid white;
+background-color: rgb(191, 71, 71);
+color: white;
+margin: 17px;
+border-radius: 10px;
+cursor: pointer;
+
+}
+.home-right img{
+    height: 270px;
+    width: 100%;
+    
+}
+.home-right{
+    width: 400px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+}
+.container-left img{
+    height: 270px;
+    width: 100%;
+    display: flex;
+    float: left;
+}
+.container-right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+#financial-professionals{
+    position: relative;
+    background-color: rgb(27, 1, 27);
+}
+#financial-professionals p{
+    font-family: 'Baloo 2', cursive;
+    font-size: 1.4rem;
+    margin-top: 353px;
+    color: white;
+    text-align: center;
+}
+.provided-course1{
+    display: flex;
+}
+.provided-course1-1{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    height: 30%;
+    margin-top: 40px;
+    margin-left: 20px;
+    border: 1px solid black;
+}
+.provided-course1-1 h2{
+    font-size: large;
+}
+.provided-course1-1 p span{
+    border: 1px solid black;
+    background-color: white;
+    color: red;
+    border-radius: 3px;
+    padding: 7px;
+    margin-left: 4px;
+}
+.btn2{
+    text-align: center;
+}
+.btn2 button{
+    background-color: rgb(9, 9, 207);
+    width: 70%;
+    border-radius: 8px;
+    text-align: white;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+}
+.provided-course1-2{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    height: 30%;
+    margin-top: 40px;
+    margin-left: 70px;
+    border: 1px solid black;
+}
+.provided-course1-2 h2{
+    font-size: large;
+}
+.provided-course1-2 p span{
+    border: 1px solid black;
+    background-color: white;
+    color: red;
+    border-radius: 3px;
+    padding: 7px;
+    margin-left: 4px;
+}
+.provided-course1-3{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    height: 30%;
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+.provided-course1-3 h2{
+    font-size: large;
+}
+.provided-course1-3 p span{
+    border: 1px solid black;
+    background-color: white;
+    color: red;
+    border-radius: 3px;
+    padding: 7px;
+    margin-left: 4px;
+}
+.provided-course2{
+    display: flex;
+}
+.provided-course2-1{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    height: 30%;
+    margin-top: 40px;
+    margin-left: 20px;
+    border: 1px solid black;
+}
+.provided-course2-1 h2{
+    font-size: large;
+}
+.provided-course2-1 p span{
+    border: 1px solid black;
+    background-color: white;
+    color: red;
+    border-radius: 3px;
+    padding: 7px;
+    margin-left: 4px;
+}
+.provided-course2-2{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    height: 30%;
+    margin-top: 40px;
+    margin-left: 70px;
+    border: 1px solid black;
+}
+.provided-course2-2 h2{
+    font-size: large;
+}
+.provided-course2-2 p span{
+    border: 1px solid black;
+    background-color: white;
+    color: red;
+    border-radius: 3px;
+    padding: 7px;
+    margin-left: 4px;
+}
+.provided-course2-3{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    height: 30%;
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+.provided-course2-3 h2{
+    font-size: large;
+}
+.provided-course2-3 p span{
+    border: 1px solid black;
+    background-color: white;
+    color: red;
+    border-radius: 3px;
+    padding: 7px;
+    margin-left: 4px;
+}
+.provided-course3{
+    display: flex;
+}
+.provided-course3-1{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    height: 30%;
+    margin-top: 40px;
+    margin-left: 20px;
+    border: 1px solid black;
+}
+.provided-course3-1 h2{
+    font-size: large;
+}
+.provided-course3-1 p span{
+    border: 1px solid black;
+    background-color: white;
+    color: red;
+    border-radius: 3px;
+    padding: 7px;
+    margin-left: 4px;
+}
+.provided-course3-2{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    height: 30%;
+    margin-top: 40px;
+    margin-left: 70px;
+    border: 1px solid black;
+}
+.provided-course3-2 h2{
+    font-size: large;
+}
+.provided-course3-2 p span{
+    border: 1px solid black;
+    background-color: white;
+    color: red;
+    border-radius: 3px;
+    padding: 7px;
+    margin-left: 4px;
+}
+.provided-course3-3{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    height: 30%;
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+.provided-course3-3 h2{
+    font-size: large;
+}
+.provided-course3-3 p span{
+    border: 1px solid black;
+    background-color: white;
+    color: red;
+    border-radius: 3px;
+    padding: 7px;
+    margin-left: 4px;
+}
+.provided-course4{
+    display: flex;
+}
+.provided-course4-1{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    height: 30%;
+    margin-top: 40px;
+    margin-left: 20px;
+    border: 1px solid black;
+}
+.provided-course4-1 h2{
+    font-size: large;
+}
+.provided-course4-1 p span{
+    border: 1px solid black;
+    background-color: white;
+    color: red;
+    border-radius: 3px;
+    padding: 7px;
+    margin-left: 4px;
+}
+.provided-course4-2{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    height: 30%;
+    margin-top: 40px;
+    margin-left: 70px;
+    border: 1px solid black;
+}
+.provided-course4-2 h2{
+    font-size: large;
+}
+.provided-course4-2 p span{
+    border: 1px solid black;
+    background-color: white;
+    color: red;
+    border-radius: 3px;
+    padding: 7px;
+    margin-left: 4px;
+}
+.provided-course4-3{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    height: 30%;
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+.provided-course4-3 h2{
+    font-size: large;
+}
+.provided-course4-3 p span{
+    border: 1px solid black;
+    background-color: white;
+    color: red;
+    border-radius: 3px;
+    padding: 7px;
+    margin-left: 4px;
+}
+#technology{
+    position: relative;
+    background-color: rgb(27, 1, 27);
+}
+#technology p{
+    font-family: 'Baloo 2', cursive;
+    font-size: 1.8rem;
+    /* margin-top: 353px; */
+    color: white;
+    text-align: center;
+}
+.cart{
+    padding: 10px;
+    margin: 10px;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding: 70px;
+    background: rgb(112, 7, 156);
+}
+.cart1{
+    display: flex;
+    margin: 10px;
+    font-family: 'Baloo 2', cursive;
+
+}
+.cartnum{
+    font-family: 'Baloo 2', cursive;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-align: center  ;
+}
+.cart1 p{
+    margin-left: 20px;
+}
+.copyright {
+    padding: 0.3em 1em;
+    background-color: #25262e;
+  }
+  .footer-menu{
+    float: left;
+      margin-top: 10px;
+  }
+  .footer-menu a{
+    color: #cfd2d6;
+    padding: 6px;
+    text-decoration: none;
+  }
+  .footer-menu a:hover, .social i:hover{
+    color: #c7940a;
+  }
+  .copyright p {
+    font-size: 0.9em;
+    text-align: right;
+  }
+.row {
+  padding: 1em 1em;
+}
+.row.primary {
+  display: grid;
+  grid-template-columns: 3fr 2fr 4fr;
+  align-items: stretch;
+}
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em;
+  min-height: 15em;
+}
+h3 {
+  width: 100%;
+  text-align: left;
+  color: white;
+  font-size: 1.4em;
+  white-space: nowrap;
+}
+/* ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+} */
+li:not(:first-child) {
+  margin-top: 0.8em;
+}
+ul li a {
+  color: #a7a7a7;
+  text-decoration: none;
+}
+ul li a:hover {
+  color: #c7940a;
+}
+.about p {
+  text-align: justify;
+  line-height: 2;
+  margin: 0;
+}
+input,
+button {
+  font-size: 1em;
+  padding: 1em;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+button {
+  background-color: #c7940a;
+  color: #ffffff;
+}
+div.social {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.4em;
+  flex-direction: row;
+  margin-top: 0.5em;
+}
+.social i {
+  color: #bac6d9;
+}
+  
+  
